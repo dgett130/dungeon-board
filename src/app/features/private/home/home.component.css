@@ -1,0 +1,18 @@
+.home-container {
+  background-image: -moz-linear-gradient(90deg, #262626 0%, #343333 100%);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 45% 1fr 1fr;
+  grid-template-rows: 10% 1fr 1fr 1fr 10%;
+}
+
+.character-card-container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+
+  border: 1px solid white;
+}
