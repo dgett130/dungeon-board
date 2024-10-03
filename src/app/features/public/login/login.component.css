@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: -moz-linear-gradient(90deg, #262626 0%, #343333 100%);
+  /*background-image: -moz-linear-gradient(90deg, #262626 0%, #343333 100%);*/
+  background-color: #D3D3D3;
   width: 100vw;
   height: 100vh;
   margin: 0;
