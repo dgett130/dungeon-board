@@ -6,3 +6,18 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+/*  NIGHT MODE */
+.navbar {
+  background-color: #202020;
+  color: #747474;
+  text-decoration-color: #747474;
+}
+
+.navbar-brand {
+  color: #747474;
+}
+
+.nav-link {
+  color: #747474;
+}

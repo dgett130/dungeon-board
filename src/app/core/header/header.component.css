@@ -1,7 +1,8 @@
-.navbar {
-  background-color: #202020;
-}
-
 .route-active {
   color: #14A76C;
+}
+
+.btn-outline-red {
+  color:  #FF0000;
+  border-color: #FF0000;
 }
