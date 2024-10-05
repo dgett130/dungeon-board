@@ -21,3 +21,15 @@ html, body {
 .nav-link {
   color: #747474;
 }
+
+.dropdown-menu {
+  background-color: #202020;
+}
+
+.dropdown-item {
+  color: #747474;
+}
+
+.dropdown-divider {
+  background-color: #747474;
+}

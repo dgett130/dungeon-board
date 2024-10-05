@@ -1,7 +1,8 @@
 <nav class="navbar fixed-top navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Dungeon Board</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -12,13 +13,53 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/characters" routerLinkActive="route-active">Characters</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/custom" routerLinkActive="route-active">Custom</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Manuale
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Razze</a></li>
+            <li><a class="dropdown-item" href="#">Incantesimi</a></li>
+            <li><a class="dropdown-item" href="#">Oggetti</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Mostri</a></li>
+          </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Seleziona Versione D&D
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">5</a></li>
+            <li><a class="dropdown-item" href="#">4</a></li>
+            <li><a class="dropdown-item" href="#">3</a></li>
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
-  <form class="container-fluid justify-content-end">
-    <button class="btn btn-sm btn-outline-red" type="button" routerLink="/login">Logout</button>
-  </form>
+
+
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+    <li class="nav-item dropdown justify-content-end">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Profilo
+      </a>
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="#">Personaggi</a></li>
+        <li><a class="dropdown-item" href="#">Diari</a></li>
+        <li><a class="dropdown-item" href="#">Campagne</a></li>
+        <li><a class="dropdown-item" href="#">Calendario</a></li>
+        <li><a class="dropdown-item" href="#">
+          <form class="container-fluid justify-content-end">
+            <button class="btn btn-sm btn-outline-red" type="button" routerLink="/login">Logout</button>
+          </form>
+        </a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
