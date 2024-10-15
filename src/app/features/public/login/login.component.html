@@ -1,21 +1,35 @@
 <div class="container-login">
   <div class="login-card">
-      <div class="col-1">
-        <img [src]="'assets/images/login.jpg'"  alt="login" class="login-image">
-      </div>
-      <div class="col-2">
-        <h2>Login</h2>
-        <form (ngSubmit)="onSubmit()">
-          <div class="input-group flex-nowrap">
-            <input type="text" class="form-control m-2" placeholder="Username" aria-label="Username">
-          </div>
-          <div class="input-group flex-nowrap">
-            <input type="password" class="form-control m-2" placeholder="Password" aria-label="Password">
-          </div>
-          <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-primary m-2">Login</button>
-          </div>
-        </form>
-      </div>
+    <div class="col-1">
+      <img [src]="'assets/images/login.jpg'" alt="login" class="login-image" />
+    </div>
+    <div class="col-2">
+      <h2 style="color: black">Login</h2>
+      <form (ngSubmit)="onSubmit()">
+        <div class="input-group flex-nowrap">
+          <input
+            type="text"
+            class="form-control m-2"
+            placeholder="Username"
+            aria-label="Username"
+          />
+        </div>
+        <div class="input-group flex-nowrap">
+          <input
+            type="password"
+            class="form-control m-2"
+            placeholder="Password"
+            aria-label="Password"
+          />
+        </div>
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary m-2">Login</button>
+        </div>
+      </form>
+      <asl-google-signin-button
+        type="icon"
+        size="medium"
+      ></asl-google-signin-button>
+    </div>
   </div>
 </div>
