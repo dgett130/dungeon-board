@@ -23,8 +23,13 @@
 }
 
 #value {
-  font-size: 56px;
+  font-weight: bold;
+  font-size: 4.6rem;
   height: 85%;
+  letter-spacing: -10px;
 }
 #plus {
+  background-color: #5c5c5c;
+  padding: 5px;
+  border-radius: 60%;
 }
