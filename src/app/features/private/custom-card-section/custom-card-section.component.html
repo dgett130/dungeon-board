@@ -1,6 +1,5 @@
-<div
-  class="container border border-1 border-info w-100 h-100"
-  id="custom-card-section"
->
-  <app-custom-card></app-custom-card>
+<div class="container w-100 h-100" id="custom-card-section">
+  <ng-template ngFor let-item [ngForOf]="cardItemList" let-i="index">
+    <app-custom-card [cardItem]="item"></app-custom-card>
+  </ng-template>
 </div>

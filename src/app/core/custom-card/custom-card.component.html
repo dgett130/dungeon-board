@@ -1,12 +1,12 @@
 <div id="custom-card" class="container w-100 h-100">
   <div id="title">
-    <span>FORZA</span>
+    <span>{{ cardItem.name }}</span>
   </div>
   <div id="description">
-    <span>Misura la potenza fisica e capacità di infliggere danni.</span>
+    <span>{{ cardItem.description }}</span>
   </div>
   <div id="value-container">
-    <div id="value">10</div>
-    <div id="plus">(+1)</div>
+    <div id="value">{{ cardItem.value }}</div>
+    <div id="plus">({{ cardItem.add }})</div>
   </div>
 </div>
